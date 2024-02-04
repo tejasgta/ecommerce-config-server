@@ -22,3 +22,11 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
+
+logging:
+  file:
+    name: C:/Users/tejgupta/Documents/Personal_Projects/Ecommerce/Logs/microservice.log
+    level: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{35} - %msg%n"
